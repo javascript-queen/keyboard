@@ -48,6 +48,6 @@ window.onload = () => {
 
   // Adding my text after my keyboard
   const myText = document.createElement('p');
-  myText.innerHTML = 'ATTENTION! A useful tip: To change the language press fn.<br>This keyboard is written almost accordingly with Mac\'s keys.<br> The code is here: https://github.com/justannakuznetsova/keyboard.';
+   myText.innerHTML = 'ATTENTION! A useful tip: To change the language press fn.<br>This keyboard is written almost accordingly with Mac\'s keys.<br> The code is here: <a href="https://github.com/justannakuznetsova/keyboard">CODE</a>.';
   document.body.append(myText);
 };
